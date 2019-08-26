@@ -5,6 +5,7 @@ opens automatically when it sees your plate number
 ## Table of contents  
 - [How it works](#how-it-works)
 - [Prerequisites](#prerequisites)
+- [Getting Started](#getting-started)
 
 <p></p>
 
@@ -44,3 +45,21 @@ then go to interfaces and __enable camera module__
 ```python
   secret_Key  = "sk_d1f041eXXXXXXXXXXXXXXXX"
 ```
+## Getting Started
+1. Run database script
+
+```bash
+  pyhton3 control_DB.py
+```
+
+2. If it is your first time your need to create the database and then enter plates.
+
+3. If you want to reset the database the only option is to remove the file and recreate the database.
+
+4. Run the main script
+
+```bash
+  pyhton3 control_DB.py
+```
+
+and let it flow XD
